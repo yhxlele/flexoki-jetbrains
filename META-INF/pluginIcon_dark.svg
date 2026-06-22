@@ -1,0 +1,23 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0.5" y="0.5" width="39" height="39" rx="8" fill="#100F0F" stroke="#282726"/>
+  <!-- row 0 — 600 weights: red orange yellow green -->
+  <rect x="5"  y="5"  width="6" height="6" rx="1.2" fill="#AF3029"/>
+  <rect x="13" y="5"  width="6" height="6" rx="1.2" fill="#BC5215"/>
+  <rect x="21" y="5"  width="6" height="6" rx="1.2" fill="#AD8301"/>
+  <rect x="29" y="5"  width="6" height="6" rx="1.2" fill="#66800B"/>
+  <!-- row 1 — 600 weights: cyan blue purple magenta -->
+  <rect x="5"  y="13" width="6" height="6" rx="1.2" fill="#24837B"/>
+  <rect x="13" y="13" width="6" height="6" rx="1.2" fill="#205EA6"/>
+  <rect x="21" y="13" width="6" height="6" rx="1.2" fill="#5E409D"/>
+  <rect x="29" y="13" width="6" height="6" rx="1.2" fill="#A02F6F"/>
+  <!-- row 2 — 400 weights: red orange yellow green -->
+  <rect x="5"  y="21" width="6" height="6" rx="1.2" fill="#D14D41"/>
+  <rect x="13" y="21" width="6" height="6" rx="1.2" fill="#DA702C"/>
+  <rect x="21" y="21" width="6" height="6" rx="1.2" fill="#D0A215"/>
+  <rect x="29" y="21" width="6" height="6" rx="1.2" fill="#879A39"/>
+  <!-- row 3 — 400 weights: cyan blue purple magenta -->
+  <rect x="5"  y="29" width="6" height="6" rx="1.2" fill="#3AA99F"/>
+  <rect x="13" y="29" width="6" height="6" rx="1.2" fill="#4385BE"/>
+  <rect x="21" y="29" width="6" height="6" rx="1.2" fill="#8B7EC8"/>
+  <rect x="29" y="29" width="6" height="6" rx="1.2" fill="#CE5D97"/>
+</svg>

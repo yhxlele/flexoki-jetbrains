@@ -1,0 +1,44 @@
+<idea-plugin>
+  <id>io.github.yhxlele.flexoki</id>
+  <name>flexoki</name>
+  <version>1.0.0</version>
+  <vendor email="yhxlele@gmail.com" url="https://github.com/yhxlele">Haoxin Yang</vendor>
+
+  <description><![CDATA[
+    <p><b>Flexoki</b> is an inky color scheme for prose and code, designed for reading and
+    writing on digital screens and inspired by analog inks and warm shades of paper.
+    Created by <a href="https://stephango.com/flexoki">Steph Ango</a> (MIT licensed).</p>
+
+    <p>This plugin bundles both <b>Flexoki Light</b> and <b>Flexoki Dark</b> as full IDE
+    themes, each with a matching editor color scheme that covers syntax highlighting and the
+    run/terminal ANSI palette.</p>
+
+    <ul>
+      <li>Exact Flexoki palette &mdash; light uses the 600 weights, dark uses the 400 weights.</li>
+      <li>Editor, gutter, caret row, selection, and console colors all themed.</li>
+      <li>Pairs with <b>Sync with OS</b> for automatic light/dark switching.</li>
+    </ul>
+
+    <p><b>Adaptive setup:</b> open <b>Settings | Appearance &amp; Behavior | Appearance</b>,
+    enable <b>Sync with OS</b>, then map Light &rarr; Flexoki Light and Dark &rarr; Flexoki Dark.</p>
+
+    <p>Flexoki color palette &copy; Steph Ango, MIT License.</p>
+  ]]></description>
+
+  <change-notes><![CDATA[
+    <ul>
+      <li><b>1.0.0</b> &mdash; Initial release: Flexoki Light and Flexoki Dark themes with
+      matching editor color schemes (syntax + console ANSI palette).</li>
+    </ul>
+  ]]></change-notes>
+
+  <!-- Theme plugins are resource-only; only the platform module is required. -->
+  <depends>com.intellij.modules.platform</depends>
+
+  <idea-version since-build="241"/>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="io.github.yhxlele.flexoki.light" path="/themes/flexoki-light.theme.json"/>
+    <themeProvider id="io.github.yhxlele.flexoki.dark" path="/themes/flexoki-dark.theme.json"/>
+  </extensions>
+</idea-plugin>

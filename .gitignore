@@ -1,0 +1,7 @@
+# macOS
+.DS_Store
+
+# Build artifacts (produced by the zip build in README; ship via Marketplace / GitHub Releases)
+dist/
+*.jar
+flexoki-plugin.zip
