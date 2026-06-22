@@ -22,6 +22,9 @@
     <p><b>Adaptive setup:</b> open <b>Settings | Appearance &amp; Behavior | Appearance</b>,
     enable <b>Sync with OS</b>, then map Light &rarr; Flexoki Light and Dark &rarr; Flexoki Dark.</p>
 
+    <p><b>Source code &amp; issues:</b>
+    <a href="https://github.com/yhxlele/flexoki-jetbrains">github.com/yhxlele/flexoki-jetbrains</a></p>
+
     <p>Flexoki color palette &copy; Steph Ango, MIT License.</p>
   ]]></description>
 
